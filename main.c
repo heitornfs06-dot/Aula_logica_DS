@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 
-int main()
+int main(void)
 {
     char nome;
     int idade;
@@ -19,6 +19,6 @@ int main()
     scanf("%d", &nascimento);
 
     maioridade = idade - nascimento;
-
+    
     return 0;
 }
